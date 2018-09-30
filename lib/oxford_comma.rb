@@ -8,7 +8,7 @@ def oxford_comma(arr)
   elsif arr.size > 3 
    new_arr = []
    count = 0 
-   while count < arr.size
+   while count < arr.size-1
     new_arr << arr[count]
     count += 1 
   end
