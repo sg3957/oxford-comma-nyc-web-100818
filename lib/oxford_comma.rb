@@ -13,7 +13,7 @@ def oxford_comma(arr)
     count += 1 
   end
   new_str << "and #{arr[-1]}"
-  arr.join(", ")
+  new_str
 end
   
 end
