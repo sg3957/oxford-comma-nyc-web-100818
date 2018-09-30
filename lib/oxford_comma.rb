@@ -12,7 +12,7 @@ def oxford_comma(arr)
     new_arr << arr[count]
     count += 1 
   end
-  new_arr << "and #{arr[count.size]}"
+  new_arr << "and #{arr[-1]}"
   arr.join(", ")
 end
   
